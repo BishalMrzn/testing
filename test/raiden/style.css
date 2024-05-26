@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+}
+
+.tech {
+    background-color: green;
+    height: 390px;
+    text-align: center;
+}
+
+.programmm {
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+    height: 390px;
+    text-align: center;
+    overflow: hidden;
+    background-image: url(/images/a.jpg);
+
+}
