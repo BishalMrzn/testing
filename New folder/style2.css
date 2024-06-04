@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    text-align: center;
+    border: 2px solid red;
+}
+/* body{
+    height: 4444px;
+} */
+.container {
+    background-color: blue;
+    /* height: 70px; */
+    height: 4444px;
+    width: 50vw;
+    padding: 0 34px;
+    margin: auto;
+}
+li{
+    color: white;
+    display: inline;
+    
+}
+header
+{background-color: black;
+    height: 70px;
+    position:sticky;
+    top: 0;
+    z-index: -1;
+}
+.box{
+    height: 12vh;
+    width: 10vh;
+    background-color: aqua;
+    z-index: 1;
+    /* position: relative; */
+    position: fixed;
+    /* top: 40px; */
+    left: 480px;
+    bottom: 40px;
+    /* right: 40px; */
+}
