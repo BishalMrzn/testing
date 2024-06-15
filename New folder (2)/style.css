@@ -1,89 +1,62 @@
-.container {
-    height: 100em;
-    /* top:0;
-    right: 0;
-    bottom: 0;
-    left: 0; */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url(/a.jpg);
+    /* overflow: hidden; */
+    background-size: cover;
+    /* -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient (black, transparent); */
+    overflow-y: scroll;}
+.container{
     display: flex;
-    text-align: center;
-    justify-content: center;
-    /* position: absolute;     */
-    vertical-align: middle;
+    justify-content: space-between;
     flex-wrap: wrap;
+    margin: 40px;
+    /* background-color:rgb(4, 12, 12); */
+    font-family:'Times New Roman', Times, serif;
+}
+.box1{
+    color: white;
+    font-size: larger;
+    margin: 18px 10px;
+}
+.box{
+    /* display: inline; */
+    padding: 4px;
+    display: flex;
     
 }
-
-.div1 {
-    /* padding: 100px; */
-
-    display: flex;
-    /* margin: auto; */
-    height: 200px;
-    border: 3px solid #000;
-    width: 400px;
-    background-color: red;
-    align-items: center;
-    justify-content: center;
-    /* text-align: justify; */
-    /* text-decoration: dashed; */
-    /* justify-items: center; */
-    position: relative;
-    top: 100px;
-    flex-wrap: wrap;
-    vertical-align: middle;
+.box2{background-color: rgb(105, 105, 239);
+    padding: 12px;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin: 8px;
 }
-
-.div2 {
-    margin: auto;
-    display: flex;
-    height: 200px;
-    border: 3px solid #000;
-    width: 400px;
-    background-color: blue;
-    /* align-items: center; */
-    justify-content: center;
-    /* text-align: center; */
-    /* text-decoration: dashed; */
-    /* justify-items: center; */
-    position: relative;
-    top: 1000px;
-    flex-wrap: wrap;
+.box a{
+    margin: 14px 10px;
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    
 }
-
-.div3 {
-    height: 200px;
-    border: 3px solid #000;
-    width: 400px;
-    background-color: red;
-    /* align-items: center; */
-    /* justify-content: center;
-    text-align: justify; */
-    /* text-decoration: dashed; */
-    /* justify-items: center; */
-    position: relative;
-    top: 50px;
-    flex-wrap: wrap;
-    vertical-align: middle;
-
+.box i{
+    margin: 10px 10px;
+    color: white;
+    font-size: xx-large;
 }
-
-.div4 {
-    height: 200px;
-    border: 3px solid #000;
-    width: 400px;
-    background-color: red;
-    /* align-items: center; */
-    /* justify-content: center;
-    text-align: justify; */
-    /* text-decoration: dashed; */
-    /* justify-items: center; */
-    position: relative;
-    top: 50px;
-    flex-wrap: wrap;
-    vertical-align: middle;
-}
-.div1.box1{
+.seg{
+    color: white;
     text-align: center;
-    justify-content: center;
-    display:flex ;
+    font-size: 32px;
+}
+.seg2{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    width: 716px;
+    margin: auto;
 }

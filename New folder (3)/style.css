@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    height: 50vh;
+    background-color: greenyellow;
+    /* grid-row-gap: 9px; */
+    /* grid-column-gap: 9px; */
+    grid-gap: 9px ;
+    grid-template-columns: auto auto ;
+    grid-template-rows: 60px 60px;
+    justify-content: space-between;
+    align-content: center;
+}
+.item{
+    background-color: aqua;
+    border: 2px solid red;
+
+}
