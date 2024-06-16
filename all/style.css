@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    background-color: red;
+    display: flex;
+    flex-wrap:wrap ;
+    /* padding: 14px; */
+    /* justify-content: space-between; */
+    
+
+}
+.box{
+    /* margin: 20px; */
+    /* padding: 20px; */
+    margin-right: 20px;
+    /* justify-content: space-between; */
+    justify-content: right;
+  
+    
+}
+.box1{
+    margin: 0;
+    padding: 0;
+    /* justify-content:space-between ; */
+}

@@ -10,12 +10,22 @@
 
 <body>
     <div class="container">
-
-        <div class="box1">box1</div>
-        <div class="box2">box2</div>
-        <div class="box2">box3</div>
-        <div class="box2">box4</div>
+        <div class="box">
+            <img id="myimage" src="/a.png" >
+            <button id="btn">Toggle</button>
+        </div>
     </div>
+   
 </body>
-
+<script>
+    myimage.style.width="146px";
+    btn.addEventListener("click",()=>{
+        if(myimage.style.width ==="546px"){
+            myimage.style.width="146px";
+        }
+        else if(myimage.style.width ==="146px"){
+            myimage.style.width="546px";
+        }
+        });
+</script>
 </html>
