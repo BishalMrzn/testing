@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="box1">Home</div>
-        <div class="box">About</div>
-        <div class="box">Contact</div>
-        <div class="box">Services</div>
+      <div class="left">
+        <a class="box" href="">Services</a>
+        <a class="box" href="">Home</a>
+        <a class="box" href="">Contact</a>
+        <a class="box" href="">About</a>
+      </div>
+      <div class="right"></div>.
     </div>
-    
-</body>
+    <img id="myimage" src="/b.png" alt="" />
+    <button id="btn">Toggle</button>
+  </body>
+  <script>
+    myimage.style.width = "146px";
+    btn.addEventListener("click", () => {
+      if (myimage.style.width === "546px") {
+        myimage.style.width = "146px";
+      } else if (myimage.style.width === "146px") {
+        myimage.style.width = "546px";
+      }
+    });
+  </script>
 </html>
